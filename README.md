@@ -14,3 +14,12 @@ The chatbot is designed as a simple but extensible example for understanding how
 * **Chatbot Core:** Handles user input, determines intent, and decides whether to respond directly or invoke a tool.
 
 * **Interactive Demo:** A conversational interface where you can chat with the bot.
+
+
+## Getting Started
+
+```python
+# Install dependecies
+pip install -r requirements.txt
+
+```
