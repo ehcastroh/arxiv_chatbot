@@ -36,5 +36,6 @@ The repo is structured with:
   ANTHROPIC_API_KEY="your_api_key_here"
   ```
 3. Run the chatbot (from terminal)
+  ```python
   python arxiv_chatbot.py"
-  
+  ```
