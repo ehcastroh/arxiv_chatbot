@@ -1,5 +1,5 @@
-# Ignore the .env file
+# Ignore the virtual environment file
 .arxivvenv
 
-# Ignore the config file
-config.py
+# Ignore keys
+.env

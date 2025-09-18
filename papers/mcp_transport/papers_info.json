@@ -1,0 +1,63 @@
+{
+  "2504.08999v1": {
+    "title": "MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers",
+    "authors": [
+      "Arash Ahmadi",
+      "Sarah Sharif",
+      "Yaser M. Banad"
+    ],
+    "summary": "Large Language Models (LLMs) are increasingly augmented with external tools\nthrough standardized interfaces like the Model Context Protocol (MCP). However,\ncurrent MCP implementations face critical limitations: they typically require\nlocal process execution through STDIO transports, making them impractical for\nresource-constrained environments like mobile devices, web browsers, and edge\ncomputing. We present MCP Bridge, a lightweight RESTful proxy that connects to\nmultiple MCP servers and exposes their capabilities through a unified API.\nUnlike existing solutions, MCP Bridge is fully LLM-agnostic, supporting any\nbackend regardless of vendor. The system implements a risk-based execution\nmodel with three security levels standard execution, confirmation workflow, and\nDocker isolation while maintaining backward compatibility with standard MCP\nclients. Complementing this server-side infrastructure is a Python based MCP\nGemini Agent that facilitates natural language interaction with MCP tools. The\nevaluation demonstrates that MCP Bridge successfully addresses the constraints\nof direct MCP connections while providing enhanced security controls and\ncross-platform compatibility, enabling sophisticated LLM-powered applications\nin previously inaccessible environments",
+    "pdf_url": "http://arxiv.org/pdf/2504.08999v1",
+    "published": "2025-04-11"
+  },
+  "2508.13220v1": {
+    "title": "MCPSecBench: A Systematic Security Benchmark and Playground for Testing Model Context Protocols",
+    "authors": [
+      "Yixuan Yang",
+      "Daoyuan Wu",
+      "Yufan Chen"
+    ],
+    "summary": "Large Language Models (LLMs) are increasingly integrated into real-world\napplications via the Model Context Protocol (MCP), a universal, open standard\nfor connecting AI agents with data sources and external tools. While MCP\nenhances the capabilities of LLM-based agents, it also introduces new security\nrisks and expands their attack surfaces. In this paper, we present the first\nsystematic taxonomy of MCP security, identifying 17 attack types across 4\nprimary attack surfaces. We introduce MCPSecBench, a comprehensive security\nbenchmark and playground that integrates prompt datasets, MCP servers, MCP\nclients, and attack scripts to evaluate these attacks across three major MCP\nproviders. Our benchmark is modular and extensible, allowing researchers to\nincorporate custom implementations of clients, servers, and transport protocols\nfor systematic security assessment. Experimental results show that over 85% of\nthe identified attacks successfully compromise at least one platform, with core\nvulnerabilities universally affecting Claude, OpenAI, and Cursor, while\nprompt-based and tool-centric attacks exhibit considerable variability across\ndifferent hosts and models. Overall, MCPSecBench standardizes the evaluation of\nMCP security and enables rigorous testing across all MCP layers.",
+    "pdf_url": "http://arxiv.org/pdf/2508.13220v1",
+    "published": "2025-08-17"
+  },
+  "2508.19239v1": {
+    "title": "Model Context Protocols in Adaptive Transport Systems: A Survey",
+    "authors": [
+      "Gaurab Chhetri",
+      "Shriyank Somvanshi",
+      "Md Monzurul Islam",
+      "Shamyo Brotee",
+      "Mahmuda Sultana Mimi",
+      "Dipti Koirala",
+      "Biplov Pandey",
+      "Subasish Das"
+    ],
+    "summary": "The rapid expansion of interconnected devices, autonomous systems, and AI\napplications has created severe fragmentation in adaptive transport systems,\nwhere diverse protocols and context sources remain isolated. This survey\nprovides the first systematic investigation of the Model Context Protocol (MCP)\nas a unifying paradigm, highlighting its ability to bridge protocol-level\nadaptation with context-aware decision making. Analyzing established\nliterature, we show that existing efforts have implicitly converged toward\nMCP-like architectures, signaling a natural evolution from fragmented solutions\nto standardized integration frameworks. We propose a five-category taxonomy\ncovering adaptive mechanisms, context-aware frameworks, unification models,\nintegration strategies, and MCP-enabled architectures. Our findings reveal\nthree key insights: traditional transport protocols have reached the limits of\nisolated adaptation, MCP's client-server and JSON-RPC structure enables\nsemantic interoperability, and AI-driven transport demands integration\nparadigms uniquely suited to MCP. Finally, we present a research roadmap\npositioning MCP as a foundation for next-generation adaptive, context-aware,\nand intelligent transport infrastructures.",
+    "pdf_url": "http://arxiv.org/pdf/2508.19239v1",
+    "published": "2025-08-26"
+  },
+  "2409.10254v2": {
+    "title": "Exploring Multifractal Critical Phases in Two-Dimensional Quasiperiodic Systems",
+    "authors": [
+      "Chao Yang",
+      "Weizhe Yang",
+      "Yongjian Wang",
+      "Yucheng Wang"
+    ],
+    "summary": "The multifractal critical phase (MCP) fundamentally differs from extended and\nlocalized phases, exhibiting delocalized distributions in both position and\nmomentum spaces. The investigation on the MCP has largely focused on\none-dimensional quasiperiodic systems. Here, we introduce a two-dimensional\n(2D) quasiperiodic model with a MCP. We present its phase diagram and\ninvestigate the characteristics of the 2D system's MCP in terms of wave packet\ndiffusion and transport based on this model. We further investigate the\nmovement of the phase boundary induced by the introduction of\nnext-nearest-neighbor hopping by calculating the fidelity susceptibility.\nFinally, we consider how to realize our studied model in superconducting\ncircuits. Our work opens the door to exploring MCP in 2D systems.",
+    "pdf_url": "http://arxiv.org/pdf/2409.10254v2",
+    "published": "2024-09-16"
+  },
+  "2004.04606v1": {
+    "title": "The coupling of matter and spacetime geometry",
+    "authors": [
+      "Jose Beltran Jimenez",
+      "Lavinia Heisenberg",
+      "Tomi Koivisto"
+    ],
+    "summary": "The geometrical formulation of gravity is not unique and can be set up in a\nvariety of spacetimes. Even though the gravitational sector enjoys this freedom\nof different geometrical interpretations, consistent matter couplings have to\nbe assured for a steady foundation of gravity. In generalised geometries,\nfurther ambiguities arise in the matter couplings unless the minimal coupling\nprinciple (MCP) is adopted that is compatible with the principles of\nrelativity, universality and inertia. In this work, MCP is applied to all\nStandard Model gauge fields and matter fields in a completely general (linear)\naffine geometry. This is also discussed from an effective field theory\nperspective. It is found that the presence of torsion generically leads to\ntheoretical problems. However, symmetric teleparallelism, wherein the affine\ngeometry is integrable and torsion-free, is consistent with MCP. The\ngeneralised Bianchi identity is derived and shown to determine the dynamics of\nthe connection in a unified fashion. Also, the parallel transport with respect\nto a teleparallel connection is shown to be free of second clock effects.",
+    "pdf_url": "http://arxiv.org/pdf/2004.04606v1",
+    "published": "2020-04-09"
+  }
+}
