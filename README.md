@@ -37,5 +37,5 @@ The repo is structured with:
   ```
 3. Run the chatbot (from terminal)
   ```python
-  python arxiv_chatbot.py"
+  python arxiv_chatbot.py
   ```
