@@ -24,8 +24,9 @@ import anthropic
 PAPER_DIR = "papers"
 
 # Anthropic API access
-load_dotenv() 
-client = anthropic.Anthropic()
+load_dotenv()
+API_KEY = os.getenv("ANTHROPIC_API_KEY") 
+client = anthropic.Anthropic(api_key=API_KEY)
 
 # -----------------------------
 # Tool Implementations

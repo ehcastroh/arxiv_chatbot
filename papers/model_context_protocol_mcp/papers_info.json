@@ -1,0 +1,64 @@
+{
+  "2504.08999v1": {
+    "title": "MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers",
+    "authors": [
+      "Arash Ahmadi",
+      "Sarah Sharif",
+      "Yaser M. Banad"
+    ],
+    "summary": "Large Language Models (LLMs) are increasingly augmented with external tools\nthrough standardized interfaces like the Model Context Protocol (MCP). However,\ncurrent MCP implementations face critical limitations: they typically require\nlocal process execution through STDIO transports, making them impractical for\nresource-constrained environments like mobile devices, web browsers, and edge\ncomputing. We present MCP Bridge, a lightweight RESTful proxy that connects to\nmultiple MCP servers and exposes their capabilities through a unified API.\nUnlike existing solutions, MCP Bridge is fully LLM-agnostic, supporting any\nbackend regardless of vendor. The system implements a risk-based execution\nmodel with three security levels standard execution, confirmation workflow, and\nDocker isolation while maintaining backward compatibility with standard MCP\nclients. Complementing this server-side infrastructure is a Python based MCP\nGemini Agent that facilitates natural language interaction with MCP tools. The\nevaluation demonstrates that MCP Bridge successfully addresses the constraints\nof direct MCP connections while providing enhanced security controls and\ncross-platform compatibility, enabling sophisticated LLM-powered applications\nin previously inaccessible environments",
+    "pdf_url": "http://arxiv.org/pdf/2504.08999v1",
+    "published": "2025-04-11"
+  },
+  "2508.13220v1": {
+    "title": "MCPSecBench: A Systematic Security Benchmark and Playground for Testing Model Context Protocols",
+    "authors": [
+      "Yixuan Yang",
+      "Daoyuan Wu",
+      "Yufan Chen"
+    ],
+    "summary": "Large Language Models (LLMs) are increasingly integrated into real-world\napplications via the Model Context Protocol (MCP), a universal, open standard\nfor connecting AI agents with data sources and external tools. While MCP\nenhances the capabilities of LLM-based agents, it also introduces new security\nrisks and expands their attack surfaces. In this paper, we present the first\nsystematic taxonomy of MCP security, identifying 17 attack types across 4\nprimary attack surfaces. We introduce MCPSecBench, a comprehensive security\nbenchmark and playground that integrates prompt datasets, MCP servers, MCP\nclients, and attack scripts to evaluate these attacks across three major MCP\nproviders. Our benchmark is modular and extensible, allowing researchers to\nincorporate custom implementations of clients, servers, and transport protocols\nfor systematic security assessment. Experimental results show that over 85% of\nthe identified attacks successfully compromise at least one platform, with core\nvulnerabilities universally affecting Claude, OpenAI, and Cursor, while\nprompt-based and tool-centric attacks exhibit considerable variability across\ndifferent hosts and models. Overall, MCPSecBench standardizes the evaluation of\nMCP security and enables rigorous testing across all MCP layers.",
+    "pdf_url": "http://arxiv.org/pdf/2508.13220v1",
+    "published": "2025-08-17"
+  },
+  "2508.19239v1": {
+    "title": "Model Context Protocols in Adaptive Transport Systems: A Survey",
+    "authors": [
+      "Gaurab Chhetri",
+      "Shriyank Somvanshi",
+      "Md Monzurul Islam",
+      "Shamyo Brotee",
+      "Mahmuda Sultana Mimi",
+      "Dipti Koirala",
+      "Biplov Pandey",
+      "Subasish Das"
+    ],
+    "summary": "The rapid expansion of interconnected devices, autonomous systems, and AI\napplications has created severe fragmentation in adaptive transport systems,\nwhere diverse protocols and context sources remain isolated. This survey\nprovides the first systematic investigation of the Model Context Protocol (MCP)\nas a unifying paradigm, highlighting its ability to bridge protocol-level\nadaptation with context-aware decision making. Analyzing established\nliterature, we show that existing efforts have implicitly converged toward\nMCP-like architectures, signaling a natural evolution from fragmented solutions\nto standardized integration frameworks. We propose a five-category taxonomy\ncovering adaptive mechanisms, context-aware frameworks, unification models,\nintegration strategies, and MCP-enabled architectures. Our findings reveal\nthree key insights: traditional transport protocols have reached the limits of\nisolated adaptation, MCP's client-server and JSON-RPC structure enables\nsemantic interoperability, and AI-driven transport demands integration\nparadigms uniquely suited to MCP. Finally, we present a research roadmap\npositioning MCP as a foundation for next-generation adaptive, context-aware,\nand intelligent transport infrastructures.",
+    "pdf_url": "http://arxiv.org/pdf/2508.19239v1",
+    "published": "2025-08-26"
+  },
+  "2508.07575v1": {
+    "title": "MCPToolBench++: A Large Scale AI Agent Model Context Protocol MCP Tool Use Benchmark",
+    "authors": [
+      "Shiqing Fan",
+      "Xichen Ding",
+      "Liang Zhang",
+      "Linjian Mo"
+    ],
+    "summary": "LLMs' capabilities are enhanced by using function calls to integrate various\ndata sources or API results into the context window. Typical tools include\nsearch, web crawlers, maps, financial data, file systems, and browser usage,\netc. Integrating these data sources or functions requires a standardized\nmethod. The Model Context Protocol (MCP) provides a standardized way to supply\ncontext to LLMs. However, the evaluation of LLMs and AI Agents' MCP tool use\nabilities suffer from several issues. First, there's a lack of comprehensive\ndatasets or benchmarks to evaluate various MCP tools. Second, the diverse\nformats of response from MCP tool call execution further increase the\ndifficulty of evaluation. Additionally, unlike existing tool-use benchmarks\nwith high success rates in functions like programming and math functions, the\nsuccess rate of real-world MCP tool is not guaranteed and varies across\ndifferent MCP servers. Furthermore, the LLMs' context window also limits the\nnumber of available tools that can be called in a single run, because the\ntextual descriptions of tool and the parameters have long token length for an\nLLM to process all at once. To help address the challenges of evaluating LLMs'\nperformance on calling MCP tools, we propose MCPToolBench++, a large-scale,\nmulti-domain AI Agent tool use benchmark. As of July 2025, this benchmark is\nbuild upon marketplace of over 4k MCP servers from more than 40 categories,\ncollected from the MCP marketplaces and GitHub communities. The datasets\nconsist of both single-step and multi-step tool calls across different\ncategories. We evaluated SOTA LLMs with agentic abilities on this benchmark and\nreported the results.",
+    "pdf_url": "http://arxiv.org/pdf/2508.07575v1",
+    "published": "2025-08-11"
+  },
+  "2504.12757v2": {
+    "title": "MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI System",
+    "authors": [
+      "Sonu Kumar",
+      "Anubhav Girdhar",
+      "Ritesh Patil",
+      "Divyansh Tripathi"
+    ],
+    "summary": "As Agentic AI gain mainstream adoption, the industry invests heavily in model\ncapabilities, achieving rapid leaps in reasoning and quality. However, these\nsystems remain largely confined to data silos, and each new integration\nrequires custom logic that is difficult to scale. The Model Context Protocol\n(MCP) addresses this challenge by defining a universal, open standard for\nsecurely connecting AI-based applications (MCP clients) to data sources (MCP\nservers). However, the flexibility of the MCP introduces new risks, including\nmalicious tool servers and compromised data integrity. We present MCP Guardian,\na framework that strengthens MCP-based communication with authentication,\nrate-limiting, logging, tracing, and Web Application Firewall (WAF) scanning.\nThrough real-world scenarios and empirical testing, we demonstrate how MCP\nGuardian effectively mitigates attacks and ensures robust oversight with\nminimal overheads. Our approach fosters secure, scalable data access for AI\nassistants, underscoring the importance of a defense-in-depth approach that\nenables safer and more transparent innovation in AI-driven environments.",
+    "pdf_url": "http://arxiv.org/pdf/2504.12757v2",
+    "published": "2025-04-17"
+  }
+}
